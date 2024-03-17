@@ -1,21 +1,24 @@
-**Background Removal Script with Rembg**
+## Image Background Removal using Rembg
 
-This Python script is designed to streamline the process of removing backgrounds from images using the Rembg library. By running this script, users can effortlessly process a batch of images, selecting the desired file type (JPEG, PNG, or JPG) for background removal.
+This Python script allows you to remove backgrounds from images using the Rembg library. It provides a simple command-line interface to process all image files within a specified folder, converting them to PNG format with the background removed. The script utilizes the `rembg` library for background removal and `PIL` (Python Imaging Library) for image manipulation. Progress bars are implemented using `tqdm` to track the processing of each image.
 
-**Instructions:**
-After you put your images in their respective directories (e.g., JPEG images in "img_jpeg"), follow these steps:
+### Features
 
-1. **Choose File Type:** When prompted, enter the file type of the images you want to process. You can choose from JPEG, PNG, or JPG. Simply type the corresponding file extension (e.g., "jpeg", "png", or "jpg") when prompted.
+- Removes backgrounds from images using Rembg library.
+- Supports JPEG, PNG, and JPG image formats.
+- Converts images to PNG format with the background removed.
+- Simple command-line interface.
+- Progress bars for tracking image processing.
 
-2. **Process Images:** Once you've specified the file type, the script automatically locates the corresponding directory containing images of the selected type. It then proceeds to process each image within the directory, removing its background.
+### Usage
 
-3. **Monitor Progress:** Throughout the processing, a progress bar is displayed, providing real-time feedback on the completion status of background removal for each image.
+1. Install the required libraries using `pip install -r requirements.txt`.
+2. Place your images in a folder named `images`.
+3. Run the script. It will process all images in the `images` folder and save the output in a folder named `dist`.
 
-4. **View Output:** The processed images are saved in a designated output directory named "dist". You can find the background-free versions of your images in this directory, saved in the PNG format.
+```bash
+python image_background_removal.py
 
-**Example Usage:**
-
-Suppose you have a directory named "img_jpeg" containing JPEG images that you want to process. Running this script will prompt you to enter the file type ("jpeg", "png", or "jpg"). After selecting "jpeg", the script will process each JPEG image in the "img_jpeg" directory, removing its background and saving the resulting images in the "dist" directory as a PNG file type.
 
 **Note:** Ensure you have Python installed on your system along with the Rembg library. If Rembg is not already installed, you can install it using pip:
 
