@@ -16,6 +16,11 @@ This Python script allows you to remove backgrounds from images using the Rembg 
 2. Place your images in a folder named `images`.
 3. Run the script. It will process all images in the `images` folder and save the output in a folder named `dist`.
 
+### Requirements
+. Python 3.x
+. Rembg
+. tqdm
+
 ```bash
 python main.py
 ```
@@ -27,3 +32,6 @@ pip install rembg[gpu,cli]
 ```
 
 For more information on using *Rembg* and its capabilities, refer to [the Rembg GitHub repository](https://github.com/danielgatis/rembg?tab=readme-ov-file#rembg).
+
+### License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
