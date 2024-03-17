@@ -3,6 +3,7 @@
 This Python script is designed to streamline the process of removing backgrounds from images using the Rembg library. By running this script, users can effortlessly process a batch of images, selecting the desired file type (JPEG, PNG, or JPG) for background removal.
 
 **Instructions:**
+After you put your images in their respective directories (e.g., JPEG images in "img_jpeg"), follow these steps:
 
 1. **Choose File Type:** When prompted, enter the file type of the images you want to process. You can choose from JPEG, PNG, or JPG. Simply type the corresponding file extension (e.g., "jpeg", "png", or "jpg") when prompted.
 
@@ -22,4 +23,4 @@ Suppose you have a directory named "img_jpeg" containing JPEG images that you wa
 pip install rembg[gpu,cli]
 ```
 
-For more information on using *Rembg* and its capabilities, refer to the Rembg GitHub repository.
+For more information on using *Rembg* and its capabilities, refer to [the Rembg GitHub repository](https://github.com/danielgatis/rembg?tab=readme-ov-file#rembg).
