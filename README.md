@@ -14,7 +14,7 @@ This Python script is designed to streamline the process of removing backgrounds
 
 **Example Usage:**
 
-Suppose you have a directory named "img_jpg" containing JPEG images that you want to process. Running this script will prompt you to enter the file type ("jpeg", "png", or "jpg"). After selecting "jpeg", the script will process each JPEG image in the "img_jpg" directory, removing its background and saving the resulting images in the "dist" directory.
+Suppose you have a directory named "img_jpeg" containing JPEG images that you want to process. Running this script will prompt you to enter the file type ("jpeg", "png", or "jpg"). After selecting "jpeg", the script will process each JPEG image in the "img_jpeg" directory, removing its background and saving the resulting images in the "dist" directory as a PNG file type.
 
 **Note:** Ensure you have Python installed on your system along with the Rembg library. If Rembg is not already installed, you can install it using pip:
 
